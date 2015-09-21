@@ -1,0 +1,11 @@
+kldload dummynet
+ipfw -f flush
+#sysctl net.inet.ip.fw.one_pass=1
+#ipfw add 500 pipe 3 ip from any to 192.168.50.14 recv bridge0 tcpflags syn
+#ipfw add 300 pipe 3 ip from any to 192.168.50.14 tcpflags syn
+ipfw add 400 pipe 1 ip from any to 192.168.50.14 
+ipfw add 401 pipe 2 ip from any to 192.168.51.14
+ipfw pipe 1 config pls 0 noerror
+ipfw pipe 2 config pls 0 noerror
+#ipfw pipe 3 config delay 20ms
+ipfw add 10000 allow ip from any to any

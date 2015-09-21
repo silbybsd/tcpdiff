@@ -1,0 +1,1803 @@
+Differences found in /0_0
+--- results.05_03_2009/freebsd7_177139/1//0_0.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_0.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_0
+--- results.05_03_2009/freebsd7_177139/1//0_0.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_0.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_1
+--- results.05_03_2009/freebsd7_177139/1//0_1.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_1.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
+-2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
++2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_1
+--- results.05_03_2009/freebsd7_177139/1//0_1.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_1.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_2
+--- results.05_03_2009/freebsd7_177139/1//0_2.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_2.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_2
+--- results.05_03_2009/freebsd7_177139/1//0_2.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_2.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+@@ -10,8 +10,8 @@
+ 0.0 IP client > server: . ack 23169 win 30589 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 26065 win 30408 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 28961 win 30227 <nop,nop,timestamp 0 0>
+-0.1 IP client > server: . ack 30409 win 30136 <nop,nop,timestamp 0 0>
+-89.84 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
++0.09 IP client > server: . ack 30409 win 30136 <nop,nop,timestamp 0 0>
++89.85 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+ 0.29 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+ 0.38 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+ 0.57 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+@@ -19,8 +19,8 @@
+ 1.68 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+ 2.4 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+ 4.61 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+-9.02 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+-17.85 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+-35.51 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+-35.51 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: R 933489872:933489872(0) win 0
++9.03 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
++17.86 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
++35.52 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
++35.52 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
++0.0 IP client > server: R 1629555457:1629555457(0) win 0
+Differences found in /0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+@@ -37,12 +37,12 @@
+ 0.31 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.42 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.65 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+-1.11 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+-2.03 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+-3.55 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+-6.91 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+-13.63 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+-27.07 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
++1.1 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
++2.0 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
++3.49 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
++6.79 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
++13.38 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
++26.56 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 31857:33305(1448) ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 33305:34753(1448) ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
+@@ -54,7 +54,7 @@
+ 0.0 IP server > client: . ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
+-17.4 IP server > client: . 30409:31857(1448) ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
++16.38 IP server > client: . 30409:31857(1448) ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 31857:33305(1448) ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
+-0.0 IP server > client: . 33305:34753(1448) ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
+-0.0 IP server > client: . 34753:36201(1448) ack 2 win 32037 <nop,nop,timestamp 0 0>
++33.78 IP server > client: . 30409:31857(1448) ack 2 win 32037 <nop,nop,timestamp 0 0> dropped
++0.0 IP server > client: . 31857:33305(1448) ack 2 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59_nodelay.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59_nodelay.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+@@ -21,4 +21,4 @@
+ 0.0 IP client > server: . ack 27513 win 30317 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 28961 win 30227 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 30409 win 30136 <nop,nop,timestamp 0 0>
+-89.94 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
++89.95 IP client > server: F 1:1(0) ack 30409 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59_nodelay.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59_nodelay.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+@@ -48,7 +48,7 @@
+ 0.25 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.32 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.43 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+-0.67 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
++0.68 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 1.15 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 2.11 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 4.03 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+@@ -57,4 +57,4 @@
+ 15.55 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 15.55 IP server > client: . 30409:31857(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 15.55 IP server > client: R 63713:63713(0) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+-0.0 IP server > client: R 95597617:95597617(0) win 0
++0.0 IP server > client: R 2039723817:2039723817(0) win 0
+Differences found in /0_24,25,26,27,28,29,30
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29,30.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29,30.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29,30
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29,30.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29,30.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29,30_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29,30_nodelay.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29,30_nodelay.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+@@ -46,11 +46,11 @@
+ 0.0 IP client > server: . ack 37649 win 29684 <nop,nop,timestamp 0 0,nop,nop,sack 1 {40545:65537}>
+ 0.0 IP client > server: . ack 39097 win 29593 <nop,nop,timestamp 0 0,nop,nop,sack 1 {40545:65537}>
+ 0.0 IP client > server: . ack 65538 win 27941 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 65538 win 30927 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 65538 win 30927 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 65538 win 30927 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 65538 win 30927 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 65538 win 30927 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+ 1.0 IP client > server: F 1:1(0) ack 65538 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29,30_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29,30_nodelay.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29,30_nodelay.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29_nodelay.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29_nodelay.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28,29_nodelay.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28,29_nodelay.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28_nodelay.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28_nodelay.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27,28_nodelay.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27,28_nodelay.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27_nodelay.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27_nodelay.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26,27_nodelay.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26,27_nodelay.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26_nodelay.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26_nodelay.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+@@ -46,7 +46,7 @@
+ 0.0 IP client > server: . ack 31857 win 30046 <nop,nop,timestamp 0 0,nop,nop,sack 1 {34753:65537}>
+ 0.0 IP client > server: . ack 33305 win 29955 <nop,nop,timestamp 0 0,nop,nop,sack 1 {34753:65537}>
+ 0.0 IP client > server: . ack 65538 win 27941 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 65538 win 30203 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 65538 win 27941 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+ 1.0 IP client > server: F 1:1(0) ack 65538 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25,26_nodelay.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25,26_nodelay.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25
+--- results.05_03_2009/freebsd7_177139/1//0_24,25.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25
+--- results.05_03_2009/freebsd7_177139/1//0_24,25.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25_nodelay.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25_nodelay.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+@@ -46,6 +46,6 @@
+ 0.0 IP client > server: . ack 30409 win 30136 <nop,nop,timestamp 0 0,nop,nop,sack 1 {33305:65537}>
+ 0.0 IP client > server: . ack 31857 win 30046 <nop,nop,timestamp 0 0,nop,nop,sack 1 {33305:65537}>
+ 0.0 IP client > server: . ack 65538 win 27941 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 65538 win 27941 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+ 1.0 IP client > server: F 1:1(0) ack 65538 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24,25_nodelay.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24,25_nodelay.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24
+--- results.05_03_2009/freebsd7_177139/1//0_24.client.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24.client.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_24
+--- results.05_03_2009/freebsd7_177139/1//0_24.server.processed	2009-05-04 18:46:28.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24.server.processed	2009-05-04 18:48:01.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_24_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24_nodelay.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24_nodelay.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /0_24_nodelay
+--- results.05_03_2009/freebsd7_177139/1//0_24_nodelay.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_24_nodelay.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_3
+--- results.05_03_2009/freebsd7_177139/1//0_3.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_3.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0,nop,nop,sack 1 {1449:2897}>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0,nop,nop,sack 1 {1449:4345}>
+Differences found in /0_3
+--- results.05_03_2009/freebsd7_177139/1//0_3.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_3.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_4
+--- results.05_03_2009/freebsd7_177139/1//0_4.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_4.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.1 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0,nop,nop,sack 1 {2897:4345}>
+Differences found in /0_4
+--- results.05_03_2009/freebsd7_177139/1//0_4.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_4.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+Differences found in /0_44
+--- results.05_03_2009/freebsd7_177139/1//0_44.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_44.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_44
+--- results.05_03_2009/freebsd7_177139/1//0_44.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_44.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_45
+--- results.05_03_2009/freebsd7_177139/1//0_45.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_45.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_45
+--- results.05_03_2009/freebsd7_177139/1//0_45.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_45.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_46
+--- results.05_03_2009/freebsd7_177139/1//0_46.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_46.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_46
+--- results.05_03_2009/freebsd7_177139/1//0_46.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_46.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_47
+--- results.05_03_2009/freebsd7_177139/1//0_47.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_47.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_47
+--- results.05_03_2009/freebsd7_177139/1//0_47.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_47.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_48
+--- results.05_03_2009/freebsd7_177139/1//0_48.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_48.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_48
+--- results.05_03_2009/freebsd7_177139/1//0_48.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_48.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /0_49
+--- results.05_03_2009/freebsd7_177139/1//0_49.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_49.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /0_49
+--- results.05_03_2009/freebsd7_177139/1//0_49.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//0_49.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /1_0
+--- results.05_03_2009/freebsd7_177139/1//1_0.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_0.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /1_0
+--- results.05_03_2009/freebsd7_177139/1//1_0.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_0.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /1_1
+--- results.05_03_2009/freebsd7_177139/1//1_1.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_1.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /1_1
+--- results.05_03_2009/freebsd7_177139/1//1_1.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_1.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /1_2
+--- results.05_03_2009/freebsd7_177139/1//1_2.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_2.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /1_2
+--- results.05_03_2009/freebsd7_177139/1//1_2.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_2.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /1_3
+--- results.05_03_2009/freebsd7_177139/1//1_3.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_3.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0,nop,nop,sack 1 {1449:2897}>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0,nop,nop,sack 1 {1449:4345}>
+Differences found in /1_3
+--- results.05_03_2009/freebsd7_177139/1//1_3.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_3.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /1_4
+--- results.05_03_2009/freebsd7_177139/1//1_4.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_4.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,7 +1,7 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+-0.1 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
++0.09 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0,nop,nop,sack 1 {2897:4345}>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0,nop,nop,sack 1 {2897:5793}>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0,nop,nop,sack 1 {2897:7241}>
+Differences found in /1_4
+--- results.05_03_2009/freebsd7_177139/1//1_4.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//1_4.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+Differences found in /24_0
+--- results.05_03_2009/freebsd7_177139/1//24_0.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_0.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /24_0
+--- results.05_03_2009/freebsd7_177139/1//24_0.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_0.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /24_44
+--- results.05_03_2009/freebsd7_177139/1//24_44.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_44.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /24_44
+--- results.05_03_2009/freebsd7_177139/1//24_44.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_44.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 32037 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 59369:60817(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
++0.22 IP server > client: . 59369:60817(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 32036 <nop,nop,timestamp 0 0>
+Differences found in /24_45
+--- results.05_03_2009/freebsd7_177139/1//24_45.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_45.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /24_45
+--- results.05_03_2009/freebsd7_177139/1//24_45.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_45.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /24_46
+--- results.05_03_2009/freebsd7_177139/1//24_46.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_46.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /24_46
+--- results.05_03_2009/freebsd7_177139/1//24_46.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_46.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /24_47
+--- results.05_03_2009/freebsd7_177139/1//24_47.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_47.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /24_47
+--- results.05_03_2009/freebsd7_177139/1//24_47.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_47.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /24_48
+--- results.05_03_2009/freebsd7_177139/1//24_48.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_48.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+@@ -22,7 +22,7 @@
+ 0.0 IP client > server: . ack 57921 win 28417 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 60817 win 28236 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 63713 win 28055 <nop,nop,timestamp 0 0> dropped
+-0.1 IP client > server: . ack 65161 win 27964 <nop,nop,timestamp 0 0>
++0.09 IP client > server: . ack 65161 win 27964 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 27941 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 32037 <nop,nop,timestamp 0 0>
+ 1.0 IP client > server: F 1:1(0) ack 65538 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /24_48
+--- results.05_03_2009/freebsd7_177139/1//24_48.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_48.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /24_49
+--- results.05_03_2009/freebsd7_177139/1//24_49.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_49.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /24_49
+--- results.05_03_2009/freebsd7_177139/1//24_49.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//24_49.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /25_0
+--- results.05_03_2009/freebsd7_177139/1//25_0.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_0.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /25_0
+--- results.05_03_2009/freebsd7_177139/1//25_0.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_0.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /25_44
+--- results.05_03_2009/freebsd7_177139/1//25_44.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_44.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /25_44
+--- results.05_03_2009/freebsd7_177139/1//25_44.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_44.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 32037 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 59369:60817(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
++0.22 IP server > client: . 59369:60817(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 32036 <nop,nop,timestamp 0 0>
+Differences found in /25_45
+--- results.05_03_2009/freebsd7_177139/1//25_45.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_45.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /25_45
+--- results.05_03_2009/freebsd7_177139/1//25_45.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_45.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /25_46
+--- results.05_03_2009/freebsd7_177139/1//25_46.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_46.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /25_46
+--- results.05_03_2009/freebsd7_177139/1//25_46.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_46.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /25_47
+--- results.05_03_2009/freebsd7_177139/1//25_47.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_47.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /25_47
+--- results.05_03_2009/freebsd7_177139/1//25_47.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_47.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /25_48
+--- results.05_03_2009/freebsd7_177139/1//25_48.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_48.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /25_48
+--- results.05_03_2009/freebsd7_177139/1//25_48.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_48.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /25_49
+--- results.05_03_2009/freebsd7_177139/1//25_49.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_49.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /25_49
+--- results.05_03_2009/freebsd7_177139/1//25_49.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//25_49.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /26_0
+--- results.05_03_2009/freebsd7_177139/1//26_0.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_0.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /26_0
+--- results.05_03_2009/freebsd7_177139/1//26_0.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_0.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /26_44
+--- results.05_03_2009/freebsd7_177139/1//26_44.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_44.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /26_44
+--- results.05_03_2009/freebsd7_177139/1//26_44.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_44.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 32037 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 59369:60817(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
++0.22 IP server > client: . 59369:60817(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 32036 <nop,nop,timestamp 0 0>
+Differences found in /26_45
+--- results.05_03_2009/freebsd7_177139/1//26_45.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_45.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /26_45
+--- results.05_03_2009/freebsd7_177139/1//26_45.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_45.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /26_46
+--- results.05_03_2009/freebsd7_177139/1//26_46.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_46.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /26_46
+--- results.05_03_2009/freebsd7_177139/1//26_46.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_46.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /26_47
+--- results.05_03_2009/freebsd7_177139/1//26_47.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_47.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /26_47
+--- results.05_03_2009/freebsd7_177139/1//26_47.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_47.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /26_48
+--- results.05_03_2009/freebsd7_177139/1//26_48.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_48.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /26_48
+--- results.05_03_2009/freebsd7_177139/1//26_48.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_48.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /26_49
+--- results.05_03_2009/freebsd7_177139/1//26_49.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_49.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /26_49
+--- results.05_03_2009/freebsd7_177139/1//26_49.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//26_49.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /27_0
+--- results.05_03_2009/freebsd7_177139/1//27_0.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_0.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /27_0
+--- results.05_03_2009/freebsd7_177139/1//27_0.server.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_0.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /27_44
+--- results.05_03_2009/freebsd7_177139/1//27_44.client.processed	2009-05-04 18:46:29.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_44.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /27_44
+--- results.05_03_2009/freebsd7_177139/1//27_44.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_44.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /27_45
+--- results.05_03_2009/freebsd7_177139/1//27_45.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_45.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /27_45
+--- results.05_03_2009/freebsd7_177139/1//27_45.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_45.server.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /27_46
+--- results.05_03_2009/freebsd7_177139/1//27_46.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_46.client.processed	2009-05-04 18:48:02.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /27_46
+--- results.05_03_2009/freebsd7_177139/1//27_46.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_46.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 32037 <nop,nop,timestamp 0 0>
+-0.25 IP server > client: . 62265:63713(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
++0.23 IP server > client: . 62265:63713(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 32036 <nop,nop,timestamp 0 0>
+Differences found in /27_47
+--- results.05_03_2009/freebsd7_177139/1//27_47.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_47.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /27_47
+--- results.05_03_2009/freebsd7_177139/1//27_47.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_47.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /27_48
+--- results.05_03_2009/freebsd7_177139/1//27_48.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_48.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /27_48
+--- results.05_03_2009/freebsd7_177139/1//27_48.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_48.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /27_49
+--- results.05_03_2009/freebsd7_177139/1//27_49.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_49.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /27_49
+--- results.05_03_2009/freebsd7_177139/1//27_49.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//27_49.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /28_0
+--- results.05_03_2009/freebsd7_177139/1//28_0.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_0.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /28_0
+--- results.05_03_2009/freebsd7_177139/1//28_0.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_0.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /28_44
+--- results.05_03_2009/freebsd7_177139/1//28_44.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_44.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /28_44
+--- results.05_03_2009/freebsd7_177139/1//28_44.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_44.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /28_45
+--- results.05_03_2009/freebsd7_177139/1//28_45.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_45.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /28_45
+--- results.05_03_2009/freebsd7_177139/1//28_45.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_45.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /28_46
+--- results.05_03_2009/freebsd7_177139/1//28_46.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_46.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /28_46
+--- results.05_03_2009/freebsd7_177139/1//28_46.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_46.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 32037 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 62265:63713(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
++0.22 IP server > client: . 62265:63713(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 32036 <nop,nop,timestamp 0 0>
+Differences found in /28_47
+--- results.05_03_2009/freebsd7_177139/1//28_47.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_47.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /28_47
+--- results.05_03_2009/freebsd7_177139/1//28_47.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_47.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /28_48
+--- results.05_03_2009/freebsd7_177139/1//28_48.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_48.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /28_48
+--- results.05_03_2009/freebsd7_177139/1//28_48.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_48.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /28_49
+--- results.05_03_2009/freebsd7_177139/1//28_49.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_49.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /28_49
+--- results.05_03_2009/freebsd7_177139/1//28_49.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//28_49.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /29_0
+--- results.05_03_2009/freebsd7_177139/1//29_0.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_0.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /29_0
+--- results.05_03_2009/freebsd7_177139/1//29_0.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_0.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /29_44
+--- results.05_03_2009/freebsd7_177139/1//29_44.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_44.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /29_44
+--- results.05_03_2009/freebsd7_177139/1//29_44.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_44.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /29_45
+--- results.05_03_2009/freebsd7_177139/1//29_45.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_45.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /29_45
+--- results.05_03_2009/freebsd7_177139/1//29_45.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_45.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /29_46
+--- results.05_03_2009/freebsd7_177139/1//29_46.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_46.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /29_46
+--- results.05_03_2009/freebsd7_177139/1//29_46.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_46.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /29_47
+--- results.05_03_2009/freebsd7_177139/1//29_47.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_47.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /29_47
+--- results.05_03_2009/freebsd7_177139/1//29_47.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_47.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /29_48
+--- results.05_03_2009/freebsd7_177139/1//29_48.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_48.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /29_48
+--- results.05_03_2009/freebsd7_177139/1//29_48.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_48.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /29_49
+--- results.05_03_2009/freebsd7_177139/1//29_49.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_49.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /29_49
+--- results.05_03_2009/freebsd7_177139/1//29_49.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//29_49.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /2_0
+--- results.05_03_2009/freebsd7_177139/1//2_0.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_0.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /2_0
+--- results.05_03_2009/freebsd7_177139/1//2_0.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_0.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
+-2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
++2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /2_1
+--- results.05_03_2009/freebsd7_177139/1//2_1.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_1.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
+-2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
++2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0>
+Differences found in /2_1
+--- results.05_03_2009/freebsd7_177139/1//2_1.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_1.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /2_2
+--- results.05_03_2009/freebsd7_177139/1//2_2.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_2.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /2_2
+--- results.05_03_2009/freebsd7_177139/1//2_2.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_2.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,6 +1,6 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
+-2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-6.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
++2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++5.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /2_3
+--- results.05_03_2009/freebsd7_177139/1//2_3.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_3.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /2_3
+--- results.05_03_2009/freebsd7_177139/1//2_3.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_3.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
+-2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
++2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /2_4
+--- results.05_03_2009/freebsd7_177139/1//2_4.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_4.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0,nop,nop,sack 1 {1449:2897}>
+Differences found in /2_4
+--- results.05_03_2009/freebsd7_177139/1//2_4.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//2_4.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
+-2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
++2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /3_0
+--- results.05_03_2009/freebsd7_177139/1//3_0.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_0.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /3_0
+--- results.05_03_2009/freebsd7_177139/1//3_0.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_0.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /3_1
+--- results.05_03_2009/freebsd7_177139/1//3_1.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_1.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
+-2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
++2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /3_1
+--- results.05_03_2009/freebsd7_177139/1//3_1.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_1.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,6 +1,6 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
+-2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
++2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /3_2
+--- results.05_03_2009/freebsd7_177139/1//3_2.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_2.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /3_2
+--- results.05_03_2009/freebsd7_177139/1//3_2.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_2.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /3_3
+--- results.05_03_2009/freebsd7_177139/1//3_3.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_3.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0,nop,nop,sack 1 {1449:2897}> dropped
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /3_3
+--- results.05_03_2009/freebsd7_177139/1//3_3.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_3.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /3_4
+--- results.05_03_2009/freebsd7_177139/1//3_4.client.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_4.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,6 +1,6 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+-0.1 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0> dropped
++0.09 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 4345 win 31765 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 7241 win 31584 <nop,nop,timestamp 0 0>
+Differences found in /3_4
+--- results.05_03_2009/freebsd7_177139/1//3_4.server.processed	2009-05-04 18:46:30.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//3_4.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+Differences found in /4_0
+--- results.05_03_2009/freebsd7_177139/1//4_0.client.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_0.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0> dropped
+Differences found in /4_0
+--- results.05_03_2009/freebsd7_177139/1//4_0.server.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_0.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /4_1
+--- results.05_03_2009/freebsd7_177139/1//4_1.client.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_1.client.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
+-2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
++2.99 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+Differences found in /4_1
+--- results.05_03_2009/freebsd7_177139/1//4_1.server.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_1.server.processed	2009-05-04 18:48:03.000000000 -0500
+@@ -1,5 +1,5 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol> dropped
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop> dropped
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /4_2
+--- results.05_03_2009/freebsd7_177139/1//4_2.client.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_2.client.processed	2009-05-04 18:48:04.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 31856 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 31675 <nop,nop,timestamp 0 0> dropped
+Differences found in /4_2
+--- results.05_03_2009/freebsd7_177139/1//4_2.server.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_2.server.processed	2009-05-04 18:48:04.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /4_3
+--- results.05_03_2009/freebsd7_177139/1//4_3.client.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_3.client.processed	2009-05-04 18:48:04.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0,nop,nop,sack 1 {1449:2897}>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0,nop,nop,sack 1 {1449:4345}> dropped
+Differences found in /4_3
+--- results.05_03_2009/freebsd7_177139/1//4_3.server.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_3.server.processed	2009-05-04 18:48:04.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+Differences found in /4_4
+--- results.05_03_2009/freebsd7_177139/1//4_4.client.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_4.client.processed	2009-05-04 18:48:04.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP client > server: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.1 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 31946 <nop,nop,timestamp 0 0,nop,nop,sack 1 {2897:4345}> dropped
+Differences found in /4_4
+--- results.05_03_2009/freebsd7_177139/1//4_4.server.processed	2009-05-04 18:46:31.000000000 -0500
++++ results.05_03_2009/freebsd7_177138/1//4_4.server.processed	2009-05-04 18:48:04.000000000 -0500
+@@ -1,4 +1,4 @@
+-0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,eol>
++0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 4,nop,nop,timestamp 0 0,sackOK,eol,nop>
+ 0.0 IP server > client: . ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 32037 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 32037 <nop,nop,timestamp 0 0> dropped
+178 total files, 178 changed, 0 unchanged

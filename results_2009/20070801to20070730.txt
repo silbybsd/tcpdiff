@@ -1,0 +1,472 @@
+Differences found in /0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59
+--- results.05_03_2009/freebsd7_20070801/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59.client.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59.client.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -21,4 +21,4 @@
+ 4.61 IP client > server: F 1:1(0) ack 30409 win 2002 <nop,nop,timestamp 0 0>
+ 9.03 IP client > server: F 1:1(0) ack 30409 win 2002 <nop,nop,timestamp 0 0>
+ 17.86 IP client > server: F 1:1(0) ack 30409 win 2002 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: R 63865590:63865590(0) win 0
++0.0 IP client > server: R 1028460888:1028460888(0) win 0
+Differences found in /0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59
+--- results.05_03_2009/freebsd7_20070801/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59.server.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -53,8 +53,8 @@
+ 0.0 IP server > client: . 39097:40545(1448) ack 2 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 40545:41993(1448) ack 2 win 2002 <nop,nop,timestamp 0 0> dropped
+-7.92 IP server > client: . 30409:31857(1448) ack 2 win 2002 <nop,nop,timestamp 0 0> dropped
++7.91 IP server > client: . 30409:31857(1448) ack 2 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 31857:33305(1448) ack 2 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 33305:34753(1448) ack 2 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 34753:36201(1448) ack 2 win 2002 <nop,nop,timestamp 0 0> dropped
+-34.47 IP server > client: . 30409:31857(1448) ack 2 win 2002 <nop,nop,timestamp 0 0>
++34.46 IP server > client: . 30409:31857(1448) ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59_nodelay
+--- results.05_03_2009/freebsd7_20070801/1//0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59_nodelay.server.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///0_24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59_nodelay.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -44,17 +44,17 @@
+ 0.0 IP server > client: . 59369:60817(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 60817:62265(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++0.2 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++0.2 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++0.21 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.22 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-0.26 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-0.31 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-0.43 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-0.67 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-1.15 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-2.11 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-4.03 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-7.87 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-15.55 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-15.55 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-15.55 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-15.55 IP server > client: R 63713:63713(0) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-0.0 IP server > client: R 2031589290:2031589290(0) win 0
++0.24 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++0.29 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++0.39 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++0.58 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++0.96 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++1.73 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++1.73 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++1.73 IP server > client: . 30409:31857(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++1.73 IP server > client: R 63713:63713(0) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
++0.0 IP server > client: R 361514283:361514283(0) win 0
+Differences found in /0_24,25,26_nodelay
+--- results.05_03_2009/freebsd7_20070801/1//0_24,25,26_nodelay.client.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///0_24,25,26_nodelay.client.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -47,4 +47,4 @@
+ 0.0 IP client > server: . ack 33305 win 1872 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 1746 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 2002 <nop,nop,timestamp 0 0>
+-1.02 IP client > server: F 1:1(0) ack 65538 win 2002 <nop,nop,timestamp 0 0>
++1.0 IP client > server: F 1:1(0) ack 65538 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /0_3
+--- results.05_03_2009/freebsd7_20070801/1//0_3.client.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///0_3.client.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -4,7 +4,7 @@
+ 0.0 IP client > server: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 1979 <nop,nop,timestamp 0 0>
+-0.09 IP client > server: . ack 7241 win 1974 <nop,nop,timestamp 0 0>
++0.1 IP client > server: . ack 7241 win 1974 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 10137 win 1962 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 13033 win 1951 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 15929 win 1940 <nop,nop,timestamp 0 0>
+Differences found in /0_4
+--- results.05_03_2009/freebsd7_20070801/1//0_4.client.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///0_4.client.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -1,12 +1,12 @@
+ 0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 8,sackOK,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.09 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
++0.1 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 8689 win 1968 <nop,nop,timestamp 0 0>
+-0.09 IP client > server: . ack 10137 win 1962 <nop,nop,timestamp 0 0>
++0.1 IP client > server: . ack 10137 win 1962 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 13033 win 1951 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 15929 win 1940 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 18825 win 1928 <nop,nop,timestamp 0 0>
+Differences found in /0_46
+--- results.05_03_2009/freebsd7_20070801/1//0_46.server.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///0_46.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /0_47
+--- results.05_03_2009/freebsd7_20070801/1//0_47.server.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///0_47.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /1_1
+--- results.05_03_2009/freebsd7_20070801/1//1_1.server.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///1_1.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -1,5 +1,5 @@
+ 0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 8,nop,nop,timestamp 0 0> dropped
+-3.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 8,nop,nop,timestamp 0 0>
++2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 8,nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /1_3
+--- results.05_03_2009/freebsd7_20070801/1//1_3.client.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///1_3.client.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -5,7 +5,7 @@
+ 0.0 IP client > server: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 1979 <nop,nop,timestamp 0 0>
+-0.1 IP client > server: . ack 7241 win 1974 <nop,nop,timestamp 0 0>
++0.09 IP client > server: . ack 7241 win 1974 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 10137 win 1962 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 13033 win 1951 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 15929 win 1940 <nop,nop,timestamp 0 0>
+Differences found in /24_44
+--- results.05_03_2009/freebsd7_20070801/1//24_44.server.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///24_44.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 59369:60817(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 59369:60817(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /24_45
+--- results.05_03_2009/freebsd7_20070801/1//24_45.server.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///24_45.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 60817:62265(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 60817:62265(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /24_46
+--- results.05_03_2009/freebsd7_20070801/1//24_46.server.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///24_46.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.26 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /24_47
+--- results.05_03_2009/freebsd7_20070801/1//24_47.server.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///24_47.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /24_49
+--- results.05_03_2009/freebsd7_20070801/1//24_49.client.processed	2009-05-04 18:25:14.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///24_49.client.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -25,4 +25,4 @@
+ 0.0 IP client > server: . ack 65538 win 1746 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 2002 <nop,nop,timestamp 0 0>
+ 1.0 IP client > server: F 1:1(0) ack 65538 win 2002 <nop,nop,timestamp 0 0>
+-0.3 IP client > server: F 1:1(0) ack 65538 win 2002 <nop,nop,timestamp 0 0>
++0.29 IP client > server: F 1:1(0) ack 65538 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /25_44
+--- results.05_03_2009/freebsd7_20070801/1//25_44.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///25_44.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 59369:60817(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 59369:60817(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /25_45
+--- results.05_03_2009/freebsd7_20070801/1//25_45.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///25_45.server.processed	2009-05-04 18:26:47.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 60817:62265(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 60817:62265(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /25_46
+--- results.05_03_2009/freebsd7_20070801/1//25_46.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///25_46.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /25_47
+--- results.05_03_2009/freebsd7_20070801/1//25_47.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///25_47.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /25_48
+--- results.05_03_2009/freebsd7_20070801/1//25_48.client.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///25_48.client.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -22,7 +22,7 @@
+ 0.0 IP client > server: . ack 57921 win 1776 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 60817 win 1764 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 63713 win 1753 <nop,nop,timestamp 0 0>
+-0.09 IP client > server: . ack 65161 win 1747 <nop,nop,timestamp 0 0> dropped
++0.1 IP client > server: . ack 65161 win 1747 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 65161 win 1747 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 1746 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /25_48
+--- results.05_03_2009/freebsd7_20070801/1//25_48.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///25_48.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,6 +46,6 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-0.22 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /26_44
+--- results.05_03_2009/freebsd7_20070801/1//26_44.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///26_44.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 59369:60817(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 59369:60817(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /26_45
+--- results.05_03_2009/freebsd7_20070801/1//26_45.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///26_45.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 60817:62265(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 60817:62265(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /26_46
+--- results.05_03_2009/freebsd7_20070801/1//26_46.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///26_46.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /26_47
+--- results.05_03_2009/freebsd7_20070801/1//26_47.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///26_47.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /27_45
+--- results.05_03_2009/freebsd7_20070801/1//27_45.client.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///27_45.client.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -26,4 +26,4 @@
+ 0.0 IP client > server: . ack 60817 win 1764 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 65538 win 1746 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 65538 win 2002 <nop,nop,timestamp 0 0>
+-1.03 IP client > server: F 1:1(0) ack 65538 win 2002 <nop,nop,timestamp 0 0>
++1.0 IP client > server: F 1:1(0) ack 65538 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /27_46
+--- results.05_03_2009/freebsd7_20070801/1//27_46.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///27_46.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /28_46
+--- results.05_03_2009/freebsd7_20070801/1//28_46.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///28_46.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /28_47
+--- results.05_03_2009/freebsd7_20070801/1//28_47.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///28_47.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /29_46
+--- results.05_03_2009/freebsd7_20070801/1//29_46.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///29_46.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /29_47
+--- results.05_03_2009/freebsd7_20070801/1//29_47.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///29_47.server.processed	2009-05-04 18:26:48.000000000 -0500
+@@ -46,5 +46,5 @@
+ 0.0 IP server > client: . 62265:63713(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: FP 65161:65537(376) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.23 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 63713:65161(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 2 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /2_4
+--- results.05_03_2009/freebsd7_20070801/1//2_4.client.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///2_4.client.processed	2009-05-04 18:26:49.000000000 -0500
+@@ -5,7 +5,7 @@
+ 0.0 IP client > server: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 1979 <nop,nop,timestamp 0 0>
+-0.09 IP client > server: . ack 7241 win 1974 <nop,nop,timestamp 0 0>
++0.1 IP client > server: . ack 7241 win 1974 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 10137 win 1962 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 13033 win 1951 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 15929 win 1940 <nop,nop,timestamp 0 0>
+Differences found in /3_0
+--- results.05_03_2009/freebsd7_20070801/1//3_0.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///3_0.server.processed	2009-05-04 18:26:49.000000000 -0500
+@@ -2,7 +2,7 @@
+ 0.0 IP server > client: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 2897:4345(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 4345:5793(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 5793:7241(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /3_1
+--- results.05_03_2009/freebsd7_20070801/1//3_1.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///3_1.server.processed	2009-05-04 18:26:49.000000000 -0500
+@@ -1,6 +1,6 @@
+ 0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 8,nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 8,nop,nop,timestamp 0 0>
+-3.0 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 8,nop,nop,timestamp 0 0>
++2.99 IP server > client: S 0:0(0) ack 0 win 65535 <mss 1460,nop,wscale 8,nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /3_2
+--- results.05_03_2009/freebsd7_20070801/1//3_2.server.processed	2009-05-04 18:25:15.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///3_2.server.processed	2009-05-04 18:26:49.000000000 -0500
+@@ -2,7 +2,7 @@
+ 0.0 IP server > client: . ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 2897:4345(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 4345:5793(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 5793:7241(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /3_3
+--- results.05_03_2009/freebsd7_20070801/1//3_3.server.processed	2009-05-04 18:25:16.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///3_3.server.processed	2009-05-04 18:26:49.000000000 -0500
+@@ -2,7 +2,7 @@
+ 0.0 IP server > client: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 2897:4345(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 4345:5793(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 5793:7241(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /3_4
+--- results.05_03_2009/freebsd7_20070801/1//3_4.client.processed	2009-05-04 18:25:16.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///3_4.client.processed	2009-05-04 18:26:49.000000000 -0500
+@@ -1,10 +1,13 @@
+ 0.0 IP client > server: S 0:0(0) win 65535 <mss 1460,nop,wscale 8,sackOK,timestamp 0 0>
+ 0.0 IP client > server: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.09 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0> dropped
++0.1 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 4345 win 1985 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 7241 win 1974 <nop,nop,timestamp 0 0>
+-0.0 IP client > server: . ack 10137 win 1962 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 1449 win 1996 <nop,nop,timestamp 0 0>
++0.0 IP client > server: . ack 8689 win 1968 <nop,nop,timestamp 0 0>
++0.1 IP client > server: . ack 10137 win 1962 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 13033 win 1951 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 15929 win 1940 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 18825 win 1928 <nop,nop,timestamp 0 0>
+Differences found in /3_4
+--- results.05_03_2009/freebsd7_20070801/1//3_4.server.processed	2009-05-04 18:25:16.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///3_4.server.processed	2009-05-04 18:26:49.000000000 -0500
+@@ -2,12 +2,12 @@
+ 0.0 IP server > client: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+-0.22 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.0 IP server > client: . 1449:2897(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 2897:4345(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 4345:5793(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 5793:7241(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 7241:8689(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.0 IP server > client: . 1449:2897(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 8689:10137(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 10137:11585(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 11585:13033(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+Differences found in /4_0
+--- results.05_03_2009/freebsd7_20070801/1//4_0.client.processed	2009-05-04 18:25:16.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///4_0.client.processed	2009-05-04 18:26:49.000000000 -0500
+@@ -2,7 +2,7 @@
+ 0.0 IP client > server: . ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 2897 win 1991 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 5793 win 1979 <nop,nop,timestamp 0 0> dropped
+-0.1 IP client > server: . ack 7241 win 1974 <nop,nop,timestamp 0 0>
++0.09 IP client > server: . ack 7241 win 1974 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 10137 win 1962 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 13033 win 1951 <nop,nop,timestamp 0 0>
+ 0.0 IP client > server: . ack 15929 win 1940 <nop,nop,timestamp 0 0>
+Differences found in /4_3
+--- results.05_03_2009/freebsd7_20070801/1//4_3.server.processed	2009-05-04 18:25:16.000000000 -0500
++++ results.05_03_2009/freebsd7_20070730/1///4_3.server.processed	2009-05-04 18:26:49.000000000 -0500
+@@ -3,7 +3,7 @@
+ 0.0 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0> dropped
+ 0.0 IP server > client: . 1449:2897(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 2897:4345(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+-0.22 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
++0.2 IP server > client: . 1:1449(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 4345:5793(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 5793:7241(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+ 0.0 IP server > client: . 7241:8689(1448) ack 1 win 2002 <nop,nop,timestamp 0 0>
+178 total files, 40 changed, 138 unchanged
